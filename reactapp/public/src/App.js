@@ -1,10 +1,11 @@
-import React from "react";
+import logo from './logo.svg';
 import './App.css';
-import Stopwatch from "./components/Stopwatch/Stopwatch";
+import Stopwatch from './components/Stopwatch/Stopwatch';
 
 function App() {
-  return(
+  return (
     <div className="App">
+      <p style={{display:'none'}}>learn react link</p>
       <Stopwatch />
     </div>
   );
